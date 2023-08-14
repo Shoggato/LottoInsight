@@ -15,7 +15,9 @@ The second question we performed analysis on the the max jackpots for each month
 # Data Source
 The data source is from Kaggle https://www.kaggle.com/datasets/stetsondone/lottery-data-winning-numbers-and-jackpots as an aggregate comma seperated values. This CSV file covers past lottery data in Washington State from June 2014 - November 2022. The original source was pulled from Lottery Corner - https://www.lotterycorner.com/wa/powerball/2022. 
 This file includes the following data: 
+
 ![Alt text](wa_lottery_df.png)
+
 date - date of winnings
 
 weekday - day of week winnings were announced
