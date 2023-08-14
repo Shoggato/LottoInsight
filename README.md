@@ -30,46 +30,77 @@ jackpot - total jackpot amount in USD
 
 # Exploratory Questions
 1. What were the most common winning powerball/powerplay numbers depending on the day?
+   
 ![Alt text](Powerball_Powerplay_Weekday_Table.png)
+
 The Powerball winning numbers were selected on Monday, Wednesday, and Saturday in our data.  Monday had two most common winning Powerball numbers 16 and 22, while Wednesday had 24, and Saturday had 18.  The most common Powerplay winning number was 2 for all days of the week.
+
 ![Alt text](Powerball_Powerplay_weekday_bar.png)
 
    
 2. What were the most common powerball/powerplay numbers depending on the month?
+
 ![Alt text](Powerball_Powerplay_monthly_Table.png)
+
 We used a mode function to find the most common winning Powerball/Powerplay numbers per month.  For every month, the Powerplay winning number was 2.  While the there was a plethora of winning Powerball numbers, 6, 7, 9, 18, 19, 20, 21, 22, 23, 24, 25, and 26.  Taking these numbers and graphing them on a bar chart actually helped us see that there were two Powerball numbers that occurred twice 18 on April, and November, and 25 on June, and September.  
+
 ![Alt text](Powerball_Powerplay_monthly_bar.png)
+
 Another interesting note to be made on Powerball winning numbers is that the numbers 18 through 26 occurred.  We found that to be unusual, given that there are 1 through 26 Powerball numbers to choose from.  It is curious that the random selection picked a sequential unbroken line of numbers, and that the algorithm that is used to pick these numbers favor the last nine numbers for Powerball.
 
-3. What were the top five most common Winning White numbers numbers overall?  
+4. What were the top five most common Winning White numbers numbers overall?  
+
 ![Alt text](White_Num_frequency_table-1.png)
+
 The White Numbers are much more extensive than Powerball and Powerplay values.  The winning White Number values are harder to visualize in a table format so we made a bar graph to represent the most common winning White Numbers.
+
 ![Alt text](White_Num_Monthly_Bar.png)
+
 The top five most common White Numbers that we found, are 21, 28, 32, 36, 39.  We chose to only identify the top five most common winning White Numbers since players can only choose five White Numbers at a time. Looking at the White Number Frequency bar graph we started to wonder if lower numbers or higher numbers were more favored as the winning White Numbers.  So we performed a linear regression.
+
 ![Alt text](White_Nums_Linreg.png)
+
 The correlation coefficient was -0.22 showing that their is a weak correlation, however, it seems that the lower White Number values were more favored by the algorithm to win than higher White Numbers.  This is inverse to what we found with the Powerball values.
+
 ![Alt text](White_Nums_Per_Hex.png)
+
 This last graph was done to show a heatmap of the most common White Numbers and their percentage from the total population of White Numbers choosen.  From this graph we can see that the most common percent sits around 1.5%, and that the most common White Numbers that were choosen sit between 20 and 40.  While the further you go past 40, the higher White Numbers start to fall from 1.5% down to less than 1.1%.
 
-4. What were the maximum jackpots per month between June 2014 to Novemeber 2022?
+5. What were the maximum jackpots per month between June 2014 to Novemeber 2022?
+
 ![Alt text](Jackpot_months_table.png)
+
 The maximum Jackpot values per month are presented in this Table.  We then graphed these values as a Bar graph.
+
 ![Alt text](Jackpot_Monthly_Bar.png)
+
 From this graph we could see that from June 2014 to Novemeber 2022, the winter months appear to have higher winning jackpot values.  Novemeber actually has a massive spike to 10e11.  We decided to dive a little bit deeper to see what is going on with this data.
+
 ![Alt text](Max_Monthly_Jackpot_Table.png)
+
 From this summary statistics for the Max Monthly Jackpot, we actually have a maximum value of 1.2e11 which is an extreme outlier which could skew our data.  
+
 ![Alt text](Jackpot_boxplots_monthly.png)
+
 We plotted the boxplots of every single Jackpot for every single month, there are some outliers present in the other months.  However, the November outlier is clearly visible.  This value is the last data point that we have from the Washington Powerball is a winning value in November 2022 of 120,000,000,000$.  Even with this outlier, we decided to keep it in since it was a legitimate win.  We then performed a linear regression over the maximum Jackpots per month.
+
 ![Alt text](Jackpot_Monthly_Linreg.png)
+
 From this data we can see that there is actually a moderate correlation in the positive direction meaning that as the year goes on, players of Powerball will have increased Jackpots that they could win
 
 
-5. What were the common maximum jackpots per year?
+6. What were the common maximum jackpots per year?
+
 ![Alt text](Yearly_Max_Jackpot_Table.png)
+
 The Table shows the maximum jackpots per year.
+
 ![Alt text](Max_Yearly_Jackpots_Bar.png)
+
 To better visualize the data we then went ahead and made a bar graph that shows has the Maximum Jackpot that was won for each year.  Again 2022 Jackpot dwarfs the earlier years because of the 120 billion dollar Jackpot in November.
+
 ![Alt text](Max_Yearly_Jackpots_Linreg.png)
+
 We performed a Linear Regression line to see if there was any correlation between time in years to Jackpot Values.  There was a moderately strong positive correlation of 0.55 that each year the Jackpot became greater and greater in value.
 
 # Conclusion
