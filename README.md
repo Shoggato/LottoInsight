@@ -60,7 +60,7 @@ The White Numbers are much more extensive than Powerball and Powerplay values.  
 
 The top five most common White Numbers that we found, are 21, 28, 32, 36, 39.  We chose to only identify the top five most common winning White Numbers since players can only choose five White Numbers at a time. Looking at the White Number Frequency bar graph we started to wonder if lower numbers or higher numbers were more favored as the winning White Numbers.  So we performed a linear regression.
 
-![image](Resoureces/Images/White_Nums_Linreg.png)
+![image](Resources/Images/White_Nums_Linreg.png)
 
 The correlation coefficient was -0.22 showing that their is a weak correlation, however, it seems that the lower White Number values were more favored by the algorithm to win than higher White Numbers.  This is inverse to what we found with the Powerball values.
 
