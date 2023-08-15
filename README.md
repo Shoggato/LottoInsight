@@ -52,7 +52,7 @@ Another interesting note to be made on Powerball winning numbers is that the num
 
 4. What were the top five most common Winning White numbers numbers overall?  
 
-![image](Resources/Images/White_Num_frequency_table-1.png)
+![image](Resources/Images/White_Num_frequency_table.png)
 
 The White Numbers are much more extensive than Powerball and Powerplay values.  The winning White Number values are harder to visualize in a table format so we made a bar graph to represent the most common winning White Numbers.
 
