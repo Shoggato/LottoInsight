@@ -1,5 +1,5 @@
 ![image](Resources/Images/image.png)
-# Washington Powerball/Powerplay Lottery
+# LottoInsight: Unveiling the Lottery Trends
 Team Members: Erika Evergarden '2020', Jamee Jones '2021', Evan Woodard '2022'
 
 # Project Description
